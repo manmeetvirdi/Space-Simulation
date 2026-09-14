@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup and temporary files
+*.bak
+*.bak.*
+*.bak*
+*.tmp
+*~
+
+# Raw NASA JPL Horizons ephemeris text files (~53 MB total; compressed into .npz datasets)
+horizons_results*.txt
+horizons_results.txt
+
+# Scratch / test artifacts
+test_widgets.png
+
+# Other local Python scripts & caches (only 04_gravity_assist_simulation.py is tracked)
+01_geometric_transform.py
+02_voyager1_trajectory.py
+03_solar_system_voyager.py
+voyager1_data.npz
+
+# Agent guidelines
+GEMINI.md
